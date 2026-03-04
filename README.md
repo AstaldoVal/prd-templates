@@ -26,14 +26,40 @@ Each folder is a source (person, company, or method). Templates are in `.txt` or
 
 ## Installation
 
+### Templates only
+
 Clone or copy this repository. Point your AI assistant, PRD tool, or product docs at the templates:
 
 ```bash
-git clone https://github.com/YOUR_ORG/prd-templates.git
+git clone https://github.com/AstaldoVal/prd-templates.git
 cd prd-templates
 ```
 
-**With prd-advisor skill:** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
+### prd-advisor skill (context-driven template selection)
+
+This repo includes the **prd-advisor** skill. It asks about your product type, audience, and domain, then recommends a matching template or a hybrid mix of sections.
+
+#### Cursor
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/AstaldoVal/prd-templates.git
+   cd prd-templates
+   ```
+2. Copy or symlink `prd-advisor/` into your project's skills directory, e.g. `.cursor/skills/prd-advisor/` or `.claude/skills/prd-advisor/`.
+3. Restart Cursor. Invoke with `/prd-advisor`.
+
+#### Claude Code
+
+1. Clone the repo as above.
+2. Copy or symlink `prd-advisor/` into Claude Code's skills directory:
+   - **macOS/Linux:** `~/.claude/skills/prd-advisor/`
+   - Or place in your project: `<project>/.claude/skills/prd-advisor/`
+3. Restart Claude Code. Use `/prd-advisor`.
+
+#### ChatGPT, Gemini, Grok, Manus
+
+These platforms use instructions rather than a skills folder. Copy the content of `prd-advisor/SKILL.md` (and optionally `prd-advisor/references/`) and paste into your assistant's **Instructions** or custom instructions field. Reference the templates in this repo (clone or link to the folder) so the assistant can point you to the right file.
 
 ---
 

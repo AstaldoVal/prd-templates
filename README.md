@@ -35,8 +35,6 @@ cd prd-templates
 
 **With prd-advisor skill:** Use the decision matrix to pick a template by use case and audience, then reference the matching folder/file here.
 
-**With Dex:** Symlink or copy into `06-Resources/PRD_Templates/` and use with `/prd-advisor`, `/product-brief`, `/deliver-prd`.
-
 ---
 
 ## Usage

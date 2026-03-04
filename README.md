@@ -33,15 +33,15 @@ git clone https://github.com/YOUR_ORG/prd-templates.git
 cd prd-templates
 ```
 
-**With prd-advisor skill:** Use the decision matrix to pick a template by use case and audience, then reference the matching folder/file here.
+**With prd-advisor skill (Dex):** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
 
 ---
 
 ## Usage
 
-- Pick a folder by source (e.g. `aakash-gupta/` for PM-heavy PRDs, `amazon/` for Working Backwards).
-- Open the template file and copy the structure into your document.
-- Combine sections from multiple templates for hybrid PRDs.
+**With prd-advisor skill (Dex):** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
+
+**Manual:** Pick a folder by source (e.g. `aakash-gupta/` for PM-heavy PRDs, `amazon/` for Working Backwards), open the template file, and copy the structure. Combine sections from multiple folders for hybrid PRDs.
 
 ---
 

@@ -33,13 +33,13 @@ git clone https://github.com/YOUR_ORG/prd-templates.git
 cd prd-templates
 ```
 
-**With prd-advisor skill (Dex):** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
+**With prd-advisor skill:** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
 
 ---
 
 ## Usage
 
-**With prd-advisor skill (Dex):** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
+**With prd-advisor skill:** Run `/prd-advisor`. Answer a few questions (product type, audience, domain). The skill recommends a matching template or a hybrid mix of sections, then gives you a personalized outline. Use the recommended folder/file here as reference.
 
 **Manual:** Pick a folder by source (e.g. `aakash-gupta/` for PM-heavy PRDs, `amazon/` for Working Backwards), open the template file, and copy the structure. Combine sections from multiple folders for hybrid PRDs.
 

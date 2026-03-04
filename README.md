@@ -57,9 +57,19 @@ This repo includes the **prd-advisor** skill. It asks about your product type, a
    - Or place in your project: `<project>/.claude/skills/prd-advisor/`
 3. Restart Claude Code. Use `/prd-advisor`.
 
-#### ChatGPT, Gemini, Grok, Manus
+#### Other providers
 
-These platforms use instructions rather than a skills folder. Copy the content of `prd-advisor/SKILL.md` (and optionally `prd-advisor/references/`) and paste into your assistant's **Instructions** or custom instructions field. Reference the templates in this repo (clone or link to the folder) so the assistant can point you to the right file.
+If your tool expects a skill folder with `SKILL.md`, use `prd-advisor/` as that folder. Copy or symlink it into your provider's skills root (e.g. `.cursor/skills/`, `.claude/skills/`, or equivalent).
+
+#### Using prd-advisor in ChatGPT, Gemini, Grok, and Manus
+
+These platforms use instructions rather than a skills folder. Step-by-step guides and ready-to-paste instructions:
+
+- **Overview and links:** [platforms/README.md](platforms/README.md)
+- **ChatGPT:** [platforms/ChatGPT.md](platforms/ChatGPT.md)
+- **Gemini:** [platforms/Gemini.md](platforms/Gemini.md)
+- **Grok:** [platforms/Grok.md](platforms/Grok.md)
+- **Manus:** [platforms/Manus.md](platforms/Manus.md)
 
 ---
 
